@@ -8,7 +8,7 @@ module.exports = function (app) {
     });
 
     // html get to home page if anything entered other than survey
-    app.get("/", (req, res) => {
+    app.get("*", (req, res) => {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 };
