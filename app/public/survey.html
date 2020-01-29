@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+
+    <title>Actor Friend Finder - Survey</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fa fa-facebook-square">Actor Friend Finder</i></h1>
+            <hr>
+            <div class="surveyTitle">Survey</div>
+        </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="nameInput" class="inputTitles">Enter your Name(Required):</label>
+                <input type="name" class="form-control" id="nameInput">
+            </div>
+            <div class="form-group">
+                <label for="pictureUrl" class="inputTitles">Enter your picture URL(Required):</label>
+                <input type="textarea" class="form-control" id="pictureUrl">
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div id=surveyQuestionsTitle>
+            <p>Survey Questions</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <strong>Question 1</strong></h3>
+            <h4>Do you like animals?</h4>
+            <select class="form-control" id="question1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 2</strong></h3>
+            <h4>Do you like to travel?</h4>
+            <select class="form-control" id="question2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 3</strong></h3>
+            <h4>Do you exercise regularly?</h4>
+            <select class="form-control" id="question3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <strong>Question 4</strong></h3>
+            <h4>Do you read books regularly?</h4>
+            <select class="form-control" id="question4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 5</strong></h3>
+            <h4>Do you like to be outdoors?</h4>
+            <select class="form-control" id="question5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 6</strong></h3>
+            <h4>Do you enjoy going out to dinner?</h4>
+            <select class="form-control" id="question6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <strong>Question 7</strong></h3>
+            <h4>Do you question others opinions?</h4>
+            <select class="form-control" id="question7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 8</strong></h3>
+            <h4>Do you like to wake up early?</h4>
+            <select class="form-control" id="question8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <strong>Question 9</strong></h3>
+            <h4>Do you like to attend sporting events?</h4>
+            <select class="form-control" id="question9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <strong>Question 10</strong></h3>
+            <h4>Do you like to drive fast?</h4>
+            <select class="form-control" id="question10">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <button class="btn btn-lg btn-primary" id=surveySubmitButton data-toggle="modal"
+            data-target=".bd-example-modal-lg">
+            <h4>Submit Survey</h4>
+        </button>
+    </div>
+    <style>
+        .surveyTitle {
+            font-weight: bolder;
+            font-size: 200%;
+        }
+
+        .fa-facebook-square:before {
+            content: "\f082";
+            color: blue;
+        }
+
+        .form-control {
+            width: 50%;
+        }
+
+        .inputTitles {
+
+            font-weight: bolder;
+        }
+
+        #surveyQuestionsTitle {
+
+            font-weight: bolder;
+        }
+
+        #submitButton {
+            color: white;
+            background: blue;
+        }
+
+        #modalTitle {
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        #matchNamePosted {
+            font-size: larger;
+            font-weight: bolder;
+            color: blueviolet;
+            text-align: center;
+        }
+
+        #photoUrlPosted {
+            margin-left: 19%;
+        }
+    </style>
+    <script>
+
+        $("#surveySubmitButton").on("click", function (event) {
+            event.preventDefault();
+            console.log("survey submitted")
+
+            var newFriend = {
+                name: $("#nameInput").val(),
+                pictureUrl: $("#pictureUrl").val(),
+                friendScores: [$("#question1").val(), $("#question2").val(), $("#question3").val(),
+                $("#question4").val(), $("#question5").val(), $("#question6").val(),
+                $("#question7").val(), $("#question8").val(), $("#question9").val(),
+                $("#question10").val()
+            ]
+            }
+
+            $.post("/api/friends", newFriend)
+                .then(function (bestMatch) {
+                    console.log(bestMatch)
+                    console.log(bestMatch.name)
+                    var matchName = bestMatch.name;
+                    $("#matchNamePosted").text(matchName);
+                    var photoUrlOfMatch = bestMatch.photoUrl;
+                    console.log(photoUrlOfMatch)
+                    $("#photoUrlPosted").attr("src", photoUrlOfMatch);
+
+                });
+
+            $("#nameInput").val('');
+            $("#pictureUrl").val('');
+            $("#question1").val('');
+            $("#question2").val('');
+            $("#question3").val('');
+            $("#question4").val('');
+            $("#question5").val('');
+            $("#question6").val('');
+            $("#question7").val('');
+            $("#question8").val('');
+            $("#question9").val('');
+            $("#question10").val('');
+
+            $("#resultsModal").modal("toggle");
+
+            // $.post("/api/friends", function (req, res) {
+            //     var bestMatchChosen = req.body;
+            //     console.log(bestMatchChosen)
+            // });
+
+        });
+
+    </script>
+
+    <div class="modal fade bd-example-modal-lg" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div id="modalTitle">This is your actor friend match!</div>
+                <div id="matchNamePosted"></div>
+                <div>
+                    <img id="photoUrlPosted" src="" alt="" width="500" height="333">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
